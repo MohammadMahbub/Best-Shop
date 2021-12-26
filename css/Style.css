@@ -1,0 +1,53 @@
+/* navbar start */
+.brand-name{
+   font-weight: 700;
+   font-size: 30px;
+   color: rgb(21, 165, 117) !important;
+}
+
+.navItem{
+   font-weight: bold;
+   font-size: 18px;
+}
+/* navbar closed */
+
+/* home page start */
+.home-titel{
+   width: 380px;
+   margin-top: 100px;
+   font-weight: bold;
+   font-size: 65px;
+}
+.home-text{
+   width: auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   font-weight: bold;
+}
+.our-shop{
+   color: rgb(14, 209, 118);
+   font-size: 25px;
+}
+.welcome-shop{
+   color: rgb(14, 209, 118);
+   font-size: 30px;
+   font-weight: bold;
+}
+.buy-Button{
+   background-color: rgb(14, 209, 118) ;
+   color: black;
+}
+.buy-Button:hover{
+   background-color: aquamarine;
+   color: black;
+}
+
+.Text-img{
+   height: 650px;
+   background: linear-gradient(to bottom, #0aec98 0%, #2bcc91 100%);
+   border-radius: 322px 0px 0px 380px;
+   padding: 132px 20px 0px 50px;
+}
+.home-img{
+   width: 700px ;
+}
