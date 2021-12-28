@@ -29,9 +29,13 @@
    font-size: 25px;
 }
 .welcome-shop{
-   color: rgb(14, 209, 118);
-   font-size: 30px;
+   font-family: 'Baloo Chettan', cursive;
+   color: #2bcc91;
+   font-size: 40px;
+   line-height: 77px;
    font-weight: bold;
+   padding-bottom: 20px;
+   display: block;
 }
 .buy-Button{
    background-color: rgb(14, 209, 118) ;
@@ -48,6 +52,138 @@
    border-radius: 322px 0px 0px 380px;
    padding: 132px 20px 0px 50px;
 }
+
 .home-img{
    width: 700px ;
+}
+
+/* about section  */
+.about-bg{
+   background-color: black;
+   text-align: center;
+   margin-top:100px;
+   margin-bottom: 50px;
+   border-radius: 10px
+}
+
+.about-titel{
+   margin-top: 100px;
+   color: rgb(20, 209, 146);
+   font-size: 55px;
+   margin-bottom: 30px;
+   text-decoration: underline;
+}
+
+.about-details{
+   color: white;
+   font-size: 18px;
+}
+
+/* service side  */
+.services{
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+.services-details{
+   text-align: center;
+   font-family: 'Baloo Chettan', cursive;
+   color: #000000;
+}
+
+.services-title{
+   font-weight: bolder;
+   font-size: 50px;
+}
+.card{
+   background-color: rgb(76, 102, 136) ;
+   border-radius: 15px;
+   box-shadow: 2px 0px 6px 3px rgb(170, 170, 170);
+}
+.card:hover{
+   background-color: rgb(29, 160, 116);
+   box-shadow: 2px 0px 10px 8px rgb(165, 165, 165);
+   border-radius: 15px;
+}
+
+.card-body{
+   text-align: center;
+}
+
+.card-title{
+   font-weight: bolder;
+   font-size: 35px;
+}
+
+.card-text{
+   font-weight: 500;
+   color: rgb(0, 0, 0);
+}
+
+/* form side  */
+.main-form{
+   width: 500px;
+   margin: auto;
+}
+.bg-color{
+   background-color: rgb(123, 148, 144);
+   margin: 20px;
+}
+.submit-btn {
+   margin-left: 200px;
+}
+
+/* discount side  */
+.offer-main{
+   margin-top:50px;
+   margin-bottom:50px;
+}
+.discount-img{
+   border-left: 50px solid rgb(20, 209, 146);
+   border-radius: 10px;
+}
+.discount{
+   border-radius: 10px;
+}
+
+.discount-titel{
+   background-color: rgb(20, 209, 146);
+   border-radius: 10px;
+   
+}
+.offer-cupon{
+   margin-top: 50px;
+   margin-bottom:25px;
+   font-size: 50px;
+}
+.cupon-number{
+   font-size: 90px !important;
+   color: rgb(255, 255, 255);
+}
+.cupon-titel{
+   font-weight: bold;
+}
+
+/* .contact side */
+.main-contact{
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+.contact{
+   text-align: center;
+   margin-top: 50px;
+  
+}
+.free-titel{
+   font-family: 'Baloo Chettan', cursive;
+   color: #2bcc91;
+   font-weight: bolder;
+   font-size: 60px;
+}
+
+/* footer */
+.main-footer{
+   text-align: center;
+   padding: 25px;
+   background-color: #000000;
+   color: #fff
 }
